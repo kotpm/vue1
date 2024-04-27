@@ -1,0 +1,48 @@
+User@WIN-ARO9GQ4F5J9 MINGW64 /d/uprise/1
+$ npx shadcn-vue@latest init
+npm ERR! code ENOENT
+npm ERR! syscall lstat
+npm ERR! path C:\Users\User\AppData\Roaming\npm
+npm ERR! errno -4058
+npm ERR! enoent ENOENT: no such file or directory, lstat 'C:\Users\User\AppData\Roaming\npm'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent 
+
+npm ERR! A complete log of this run can be found in: C:\Users\User\AppData\Local\npm-cache\_logs\2024-04-13T18_01_59_638Z-debug-0.log
+
+User@WIN-ARO9GQ4F5J9 MINGW64 /d/uprise/1
+$ npm -v
+10.2.4
+
+User@WIN-ARO9GQ4F5J9 MINGW64 /d/uprise/1
+$ npm i -g npx
+
+added 1 package in 15s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+User@WIN-ARO9GQ4F5J9 MINGW64 /d/uprise/1
+$ npx shadcn-vue@latest init
+Need to install the following packages:
+shadcn-vue@0.10.3
+Ok to proceed? (y) y
+√ Would you like to use TypeScript (recommended)? ... no / yes
+√ Which framework are you using? » Vite
+√ Which style would you like to use? » Default
+√ Which color would you like to use as base color? » Slate
+√ Where is your global CSS file? ... src/style.css
+√ Would you like to use CSS variables for colors? ... no / yes
+√ Where is your tailwind.config located? ... tailwind.config.js
+√ Configure the import alias for components: ... @/components
+√ Configure the import alias for utils: ... @/lib/utils
+√ Write configuration to components.json. Proceed? ... yes
+                                                                                                                                                                            21:07:01  
+✔ Writing components.json...
+✔ Initializing project...
+✔ Installing dependencies...
+                                                                                                                                                                            21:07:13  
+ℹ Success! Project initialization completed.                                                                                                                               21:07:13   
+                                                                                                                                                                            21:07:13  
+
+User@WIN-ARO9GQ4F5J9 MINGW64 /d/uprise/1
